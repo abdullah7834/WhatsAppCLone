@@ -1,13 +1,13 @@
 import {Redirect, Stack} from "expo-router"
-import * as  SplashScreen from "expo-splash-screen"
+import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useState } from "react"
 //  Below line means that whenever we do not hide the Splash Screen It Will be Shown 
-SplashScreen.preventAutoHideAsync()
+SplashScreen.preventAutoHideAsync();
 const RootNavigation = () => {
 const[islogin , setIsLogin] =useState(false)
     useEffect(()=>{
         setTimeout(()=>{
-SplashScreen.hideAsync()
+            SplashScreen.hideAsync();
         },2000)
     },[])
   return (
