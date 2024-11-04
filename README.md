@@ -30,6 +30,10 @@ When The auth stack complete then theses Pages doesnot load again and make the a
 
 We add Some Pages into our auth Stack  and next we will develop them 
 Then We make our front page UI and Also learn how to define the constants and we use them in a project  
+Next we will work on the welcome screen and the OTP Screen as well 
+
+
+figma.com/design/Rimp09NGf3bSKELp11XRvN/Whatsapp-Ui-Design(Community)-(Copy)?node-id=6-164&node-type=frame&t=TXMk0N74Qo99vQqE-0
 
 
 

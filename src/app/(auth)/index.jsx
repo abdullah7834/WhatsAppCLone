@@ -13,12 +13,16 @@ const Auth = () => {
   }
   useEffect(()=>{
     // ab yeh k 2 seconds k baad loading wala screen a jaeyga 
-    setTimeout(() => {
+    const timeout = setTimeout(() => {
       setIsloading(true)
       setTimeout(()=>{
         navigate_to_welcomeScreen()
       },3000)
     }, 2000);
+// this funcition will be called when the component is unmounted and restrict it from running in the background   it is called the componnetdidunmount 
+    return ()=>{
+      clearTimeout(timeout)
+    }
   })
   return (
     // Safe Area View Gave a padding from the top to the Bottom
@@ -79,11 +83,13 @@ const styles = StyleSheet.create({
   facebook_text: {
     fontSize: moderateScale(15),
     color: "black",
+    textTransform:"uppercase",
   },
   image_style: {
     // this will take the values inside a container item  according to width and  height of the Screen   and if we want the same height and the width we will use the moderate scale value
     width: verticalScale(70),
     height: verticalScale(70),
+    borderRadius: verticalScale(70),
   },
   whatsapp_text: {
     fontSize: moderateScale(35),
