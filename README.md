@@ -39,5 +39,7 @@ figma.com/design/Rimp09NGf3bSkELp11XRvN/Whatsapp-Ui-Design(Community)-(Copy)?nod
 Next we will work on a login screen and OTP Screen 
  We use an npm Package named as a country picker modal  and use it in the project for the country code and country name but it is not working in my case i donot know why :: 
 
+ Next we will move on to the OTP Screen 
+
 
 
