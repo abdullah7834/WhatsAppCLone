@@ -33,10 +33,11 @@ Then We make our front page UI and Also learn how to define the constants and we
 Next we will work on the welcome screen and the OTP Screen as well 
 
 
-figma.com/design/Rimp09NGf3bSKELp11XRvN/Whatsapp-Ui-Design(Community)-(Copy)?node-id=6-164&node-type=frame&t=TXMk0N74Qo99vQqE-0
+figma.com/design/Rimp09NGf3bSkELp11XRvN/Whatsapp-Ui-Design(Community)-(Copy)?node-id=6-164&node-type=frame&t=TXMk0N74Qo99vQqE-0
 
 
-
+Next we will work on a login screen and OTP Screen 
+ We use an npm Package named as a country picker modal  and use it in the project for the country code and country name but it is not working in my case i donot know why :: 
 
 
 
